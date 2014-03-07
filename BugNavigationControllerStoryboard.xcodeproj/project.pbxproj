@@ -21,6 +21,7 @@
 		BE5C620618CA470900CD8D93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5C61E818CA470800CD8D93 /* UIKit.framework */; };
 		BE5C620E18CA470900CD8D93 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE5C620C18CA470900CD8D93 /* InfoPlist.strings */; };
 		BE5C621018CA470900CD8D93 /* BugNavigationControllerStoryboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5C620F18CA470900CD8D93 /* BugNavigationControllerStoryboardTests.m */; };
+		BE5C621B18CA478400CD8D93 /* AVRPresentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5C621A18CA478400CD8D93 /* AVRPresentedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		BE5C620B18CA470900CD8D93 /* BugNavigationControllerStoryboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BugNavigationControllerStoryboardTests-Info.plist"; sourceTree = "<group>"; };
 		BE5C620D18CA470900CD8D93 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE5C620F18CA470900CD8D93 /* BugNavigationControllerStoryboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BugNavigationControllerStoryboardTests.m; sourceTree = "<group>"; };
+		BE5C621918CA478400CD8D93 /* AVRPresentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVRPresentedViewController.h; sourceTree = "<group>"; };
+		BE5C621A18CA478400CD8D93 /* AVRPresentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVRPresentedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				BE5C61FA18CA470800CD8D93 /* AVRViewController.m */,
 				BE5C61FC18CA470900CD8D93 /* Images.xcassets */,
 				BE5C61EB18CA470800CD8D93 /* Supporting Files */,
+				BE5C621918CA478400CD8D93 /* AVRPresentedViewController.h */,
+				BE5C621A18CA478400CD8D93 /* AVRPresentedViewController.m */,
 			);
 			path = BugNavigationControllerStoryboard;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE5C61F518CA470800CD8D93 /* AVRAppDelegate.m in Sources */,
+				BE5C621B18CA478400CD8D93 /* AVRPresentedViewController.m in Sources */,
 				BE5C61FB18CA470800CD8D93 /* AVRViewController.m in Sources */,
 				BE5C61F118CA470800CD8D93 /* main.m in Sources */,
 			);

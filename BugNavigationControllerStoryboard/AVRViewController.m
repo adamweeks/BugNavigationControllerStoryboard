@@ -26,4 +26,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)presentPresented:(id)sender
+{
+    NSString *storyboardPresentedNavigationControllerIdentifer = @"presentedNavigationController";
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+    UINavigationController *navigationController = (UINavigationController *)[storyboard instantiateViewControllerWithIdentifier:storyboardPresentedNavigationControllerIdentifer];
+    [self presentViewController:navigationController animated:YES completion:^{
+        
+    }];
+}
+
 @end
